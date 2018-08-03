@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Jukebox"
+  },
+  "owner": "",
+  "contact": {
+    "name": "HardlyDifficult",
+    "email": ""
+  },
+  "scene": {
+    "parcels": [
+      "42,42"
+    ],
+    "base": "42,42"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://rendezvous.decentraland.org"
+  },
+  "policy": {
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": "0,0,0"
+  },
+  "main": "scene.js"
+}

@@ -1,0 +1,2959 @@
+{
+    "accessors": [
+        {
+            "bufferView": 19,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.7071068286895752,
+                0.7071068286895752,
+                -5.7601170055932016e-08,
+                -5.7601170055932016e-08
+            ],
+            "min": [
+                -0.7071068286895752,
+                0.7071068286895752,
+                -5.7601170055932016e-08,
+                -5.7601170055932016e-08
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 50,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                6.676147989992387e-08,
+                -3.76787596678696e-08,
+                -0.5,
+                0.8660253882408142
+            ],
+            "min": [
+                -6.393701568185861e-08,
+                -1.1988973369625455e-07,
+                -0.8660255074501038,
+                0.49999991059303284
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 21,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.18253284692764282,
+                -0.12049373984336853,
+                7.54018287807412e-08
+            ],
+            "min": [
+                -0.18253284692764282,
+                -0.12049373984336853,
+                7.54018287807412e-08
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.47672945261001587,
+                0.879050076007843,
+                -6.586220990811853e-08,
+                -4.458005520291408e-08
+            ],
+            "min": [
+                -0.47672945261001587,
+                0.879050076007843,
+                -6.586220990811853e-08,
+                -4.458005520291408e-08
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Sit_Idle_2_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 37,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                5.863549645823696e-08,
+                -1.0821656815096503e-07,
+                -0.2790619730949402,
+                0.9602730870246887
+            ],
+            "min": [
+                5.863549645823696e-08,
+                -1.0821656815096503e-07,
+                -0.2790619730949402,
+                0.9602730870246887
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 25,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.0,
+                -0.7069171667098999,
+                0.0,
+                0.7071067094802856
+            ],
+            "min": [
+                -0.016376938670873642,
+                -0.7071068286895752,
+                -0.016376934945583344,
+                0.7069170475006104
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 53,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.441649715161475e-07,
+                -1.1204475214299237e-07,
+                -0.5,
+                0.866025447845459
+            ],
+            "min": [
+                -4.182703250421582e-08,
+                -1.3904602269576571e-07,
+                -0.866025447845459,
+                0.5
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 58,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Mouth_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 24,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.1102230246251565e-16,
+                0.8000000715255737,
+                -1.27675647831893e-15
+            ],
+            "min": [
+                1.1102230246251565e-16,
+                0.8000000715255737,
+                -1.27675647831893e-15
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 31,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.2228192239999771,
+                0.36166828870773315,
+                -0.775276243686676,
+                0.49291756749153137
+            ],
+            "min": [
+                -0.21863771975040436,
+                -0.4476064145565033,
+                -0.8952616453170776,
+                0.38539332151412964
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Sit_Idle_2_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 68,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.0,
+                -0.7071068286895752,
+                0.0,
+                0.7071067094802856
+            ],
+            "min": [
+                0.0,
+                -0.7071068286895752,
+                0.0,
+                0.7071067094802856
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 39,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.5119828581809998,
+                0.2219129204750061,
+                -1.638007773863137e-08
+            ],
+            "min": [
+                0.5119828581809998,
+                0.2219129204750061,
+                -1.638007773863137e-08
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Sit_Idle_2_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 59,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.20000004768371582,
+                0.5299999713897705,
+                -0.1810196489095688
+            ],
+            "min": [
+                0.20000004768371582,
+                0.5299999713897705,
+                -0.18101966381072998
+            ],
+            "name": "accessor_buffer_FLeg.L_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.000000238418579,
+                1.0000001192092896,
+                1.0
+            ],
+            "min": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Idle_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 51,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Walking_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 47,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.4416494309443806e-07,
+                -1.1204475924841972e-07,
+                -0.5,
+                0.866025447845459
+            ],
+            "min": [
+                -4.1827053820497895e-08,
+                -1.3904606532832986e-07,
+                -0.866025447845459,
+                0.5
+            ],
+            "name": "accessor_buffer_FLeg.R_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 52,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.20000004768371582,
+                -0.05000007152557373,
+                -0.1810196489095688
+            ],
+            "min": [
+                0.20000004768371582,
+                -0.05000007152557373,
+                -0.18101966381072998
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 34,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                5.863548224738224e-08,
+                -1.0821659657267446e-07,
+                -0.2790619730949402,
+                0.9602730870246887
+            ],
+            "min": [
+                5.863548224738224e-08,
+                -1.0821659657267446e-07,
+                -0.2790619730949402,
+                0.9602730870246887
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 13,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "min": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "name": "accessor_buffer_Ear.L_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 26,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Idle_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 27,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.09999999403953552,
+                0.2000000774860382,
+                0.17000004649162292
+            ],
+            "min": [
+                0.09999999403953552,
+                0.19999995827674866,
+                0.169999897480011
+            ],
+            "name": "accessor_buffer_Ear.R_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 57,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.0,
+                0.30000007152557373,
+                -0.10000002384185791
+            ],
+            "min": [
+                0.0,
+                0.30000007152557373,
+                -0.10000002384185791
+            ],
+            "name": "accessor_buffer_Mouth_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                3.9999999999999956
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Doogo_Rig_Sit_Idle_2_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 55,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                -0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ],
+            "name": "accessor_buffer_Ear.L_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5121,
+            "count": 272,
+            "max": [
+                9,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "accessor_buffer_Doggo_skin_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 67,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                7.771561172376096e-16,
+                0.8000000715255737,
+                3.1086244689504383e-15
+            ],
+            "min": [
+                -6.661338147750939e-16,
+                0.8000000715255737,
+                -8.93729534823251e-15
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 41,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Sit_Idle_2_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 56,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "min": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "name": "accessor_buffer_Ear.L_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "min": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "name": "accessor_buffer_FLeg.R_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 66,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                -1.0289494412063505e-06,
+                -4.169477847426606e-07,
+                -0.855780839920044,
+                0.5173386335372925
+            ],
+            "min": [
+                -1.0289494412063505e-06,
+                -4.169477847426606e-07,
+                -0.855780839920044,
+                0.5173386335372925
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 18,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.30000001192092896,
+                0.5963563919067383,
+                4.895510108404721e-10
+            ],
+            "min": [
+                0.30000001192092896,
+                0.5963563919067383,
+                4.895510108404721e-10
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "min": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "name": "accessor_buffer_FLeg.L_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 272,
+            "max": [
+                0.6629579067230225,
+                0.8672493696212769,
+                0.24441999197006226
+            ],
+            "min": [
+                -0.9972506165504456,
+                3.0326840715133585e-05,
+                -0.24441999197006226
+            ],
+            "name": "accessor_buffer_Doggo_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 61,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_FLeg.L_Doogo_Rig_Walking_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 46,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.19999998807907104,
+                0.5299999713897705,
+                0.18101973831653595
+            ],
+            "min": [
+                0.19999998807907104,
+                0.5299999713897705,
+                0.18101972341537476
+            ],
+            "name": "accessor_buffer_FLeg.R_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 70,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "min": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "name": "accessor_buffer_Ear.R_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 14,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                6.247986069490841e-16,
+                0.3000001013278961,
+                -0.09999996423721313
+            ],
+            "min": [
+                -4.038653092508504e-16,
+                0.29999998211860657,
+                -0.10000012814998627
+            ],
+            "name": "accessor_buffer_Mouth_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 408,
+            "max": [
+                271
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Doggo_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 69,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ],
+            "min": [
+                0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ],
+            "name": "accessor_buffer_Ear.R_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 48,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_FLeg.R_Doogo_Rig_Walking_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.20000004768371582,
+                -0.05000007152557373,
+                -0.18101966381072998
+            ],
+            "min": [
+                0.20000004768371582,
+                -0.05000007152557373,
+                -0.18101966381072998
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.18253281712532043,
+                -0.12049369513988495,
+                7.540184299159591e-08
+            ],
+            "min": [
+                -0.18253281712532043,
+                -0.12049369513988495,
+                7.540184299159591e-08
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Sit_Idle_2_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 63,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                -0.7071068286895752,
+                0.7071068286895752,
+                -5.7601170055932016e-08,
+                -5.7601170055932016e-08
+            ],
+            "min": [
+                -0.7071068286895752,
+                0.7071068286895752,
+                -5.7601170055932016e-08,
+                -5.7601170055932016e-08
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 22,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -9.263702622774872e-07,
+                -4.169477847426606e-07,
+                -0.7814333438873291,
+                0.6239888072013855
+            ],
+            "min": [
+                -1.0706688726713764e-06,
+                -5.500826887328003e-07,
+                -0.855780839920044,
+                0.5173386335372925
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 60,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                6.67615083216333e-08,
+                -3.7678741904301205e-08,
+                -0.5,
+                0.8660253882408142
+            ],
+            "min": [
+                -6.393702278728597e-08,
+                -1.1988974790710927e-07,
+                -0.866025447845459,
+                0.49999988079071045
+            ],
+            "name": "accessor_buffer_FLeg.L_Doogo_Rig_Walking_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 20,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Idle_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 272,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "name": "accessor_buffer_Doggo_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 44,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999998211860657,
+                0.9999998807907104
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Sit_Idle_2_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.20000004768371582,
+                -0.050000034272670746,
+                -0.18101966381072998
+            ],
+            "min": [
+                0.20000004768371582,
+                -0.050000034272670746,
+                -0.18101966381072998
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 64,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Walking_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 54,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Walking_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                3.9999999999999956
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Doogo_Rig_Idle_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 62,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.30000001192092896,
+                0.5963563919067383,
+                5.0164699061383544e-09
+            ],
+            "min": [
+                0.30000001192092896,
+                0.5683286190032959,
+                -4.025254796147237e-09
+            ],
+            "name": "accessor_buffer_Body_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 15,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                9.313225746154785e-10,
+                6.938893903907228e-18,
+                1.1102230246251565e-16,
+                1.0
+            ],
+            "min": [
+                -9.313225746154785e-10,
+                -1.0408340855860843e-17,
+                -3.338258489082868e-16,
+                1.0
+            ],
+            "name": "accessor_buffer_Mouth_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 45,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                2.0000000000000027
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Doogo_Rig_Walking_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 33,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.20000001788139343,
+                -0.05000010132789612,
+                0.18101972341537476
+            ],
+            "min": [
+                0.20000001788139343,
+                -0.05000010132789612,
+                0.18101972341537476
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.19999998807907104,
+                -0.05000007152557373,
+                0.18101972341537476
+            ],
+            "min": [
+                0.19999998807907104,
+                -0.05000007152557373,
+                0.18101972341537476
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 43,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.06068781763315201,
+                -0.6905493140220642,
+                -0.0606878325343132,
+                0.7044976949691772
+            ],
+            "min": [
+                -0.1521240472793579,
+                -0.704497754573822,
+                -0.1521240472793579,
+                0.6905491948127747
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Sit_Idle_2_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 38,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "min": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "name": "accessor_buffer_BLeg.L_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "min": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 16,
+            "componentType": 5126,
+            "count": 272,
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Doggo_skin_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.19999998807907104,
+                0.5299999713897705,
+                0.18101972341537476
+            ],
+            "min": [
+                0.19999998807907104,
+                0.5299999713897705,
+                0.18101972341537476
+            ],
+            "name": "accessor_buffer_FLeg.R_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 65,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                -0.18253284692764282,
+                -0.12049373984336853,
+                7.54018287807412e-08
+            ],
+            "min": [
+                -0.18253284692764282,
+                -0.12049373984336853,
+                7.540181456988648e-08
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.20000004768371582,
+                0.5299999713897705,
+                -0.18101966381072998
+            ],
+            "min": [
+                0.20000004768371582,
+                0.5299999713897705,
+                -0.18101966381072998
+            ],
+            "name": "accessor_buffer_FLeg.L_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10,
+            "max": [
+                1.0000001192092896,
+                0.4647215008735657,
+                0.0,
+                0.0,
+                0.4647212624549866,
+                1.0000001192092896,
+                1.0,
+                0.0,
+                1.9934577721869573e-07,
+                4.952577796757396e-07,
+                0.0,
+                0.0,
+                0.6000000238418579,
+                0.49748659133911133,
+                0.18101973831653595,
+                1.0
+            ],
+            "min": [
+                -1.0000001192092896,
+                -1.0000001192092896,
+                -1.7782623444873025e-06,
+                0.0,
+                -1.0,
+                -1.0,
+                -1.4926239373380668e-06,
+                0.0,
+                -1.0,
+                -8.278421148588677e-08,
+                -1.0,
+                0.0,
+                -0.7359887957572937,
+                -0.8000000715255737,
+                -0.6000000238418579,
+                1.0
+            ],
+            "name": "accessor_buffer_IBM_Doggo_skin_0",
+            "type": "MAT4"
+        },
+        {
+            "bufferView": 42,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -5.215407483660783e-08,
+                0.800000011920929,
+                4.440892098500626e-16
+            ],
+            "min": [
+                -5.215407483660783e-08,
+                0.800000011920929,
+                4.440892098500626e-16
+            ],
+            "name": "accessor_buffer_Head_Doogo_Rig_Sit_Idle_2_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 12,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                -0.09999999403953552,
+                0.2000000774860382,
+                0.17000004649162292
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.19999997317790985,
+                0.169999897480011
+            ],
+            "name": "accessor_buffer_Ear.L_Doogo_Rig_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 49,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.19999998807907104,
+                -0.05000007152557373,
+                0.18101973831653595
+            ],
+            "min": [
+                0.19999998807907104,
+                -0.05000007152557373,
+                0.18101972341537476
+            ],
+            "name": "accessor_buffer_BLeg.R_Doogo_Rig_Walking_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "min": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "name": "accessor_buffer_Ear.R_Doogo_Rig_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 32,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 121,
+            "max": [
+                1.000000238418579,
+                1.0000001192092896,
+                1.0000001192092896
+            ],
+            "min": [
+                1.0,
+                0.9999998807907104,
+                0.9999998211860657
+            ],
+            "name": "accessor_buffer_Tail_Doogo_Rig_Sit_Idle_2_2",
+            "type": "VEC3"
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 7,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 7,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 8,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 10,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 10,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 6,
+                    "target": {
+                        "node": 5,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 7,
+                    "target": {
+                        "node": 5,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 8,
+                    "target": {
+                        "node": 6,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 9,
+                    "target": {
+                        "node": 6,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 10,
+                    "target": {
+                        "node": 9,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 11,
+                    "target": {
+                        "node": 9,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 12,
+                    "target": {
+                        "node": 2,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 13,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 14,
+                    "target": {
+                        "node": 2,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 15,
+                    "target": {
+                        "node": 11,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 16,
+                    "target": {
+                        "node": 11,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 17,
+                    "target": {
+                        "node": 11,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 18,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 19,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 20,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 21,
+                    "target": {
+                        "node": 4,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 22,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "name": "Idle",
+            "samplers": [
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 63
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 28
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 57
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 61
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 40
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 60
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 68
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 18
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 36
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 54
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 65
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 31
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 30
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 0
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 46
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 44
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 13
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 8
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 5
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 19
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 20
+                },
+                {
+                    "input": 52,
+                    "interpolation": "LINEAR",
+                    "output": 70
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 11,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 11,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 11,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 8,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 8,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 6,
+                    "target": {
+                        "node": 10,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 7,
+                    "target": {
+                        "node": 10,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 8,
+                    "target": {
+                        "node": 10,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 9,
+                    "target": {
+                        "node": 2,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 10,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 11,
+                    "target": {
+                        "node": 2,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 12,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 13,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 14,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "Sit_Idle_2",
+            "samplers": [
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 42
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 9
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 71
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 56
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 17
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 41
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 49
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 59
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 11
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 3
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 26
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 67
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 58
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 48
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 7,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 7,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 7,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 8,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 8,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 6,
+                    "target": {
+                        "node": 10,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 7,
+                    "target": {
+                        "node": 10,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 8,
+                    "target": {
+                        "node": 10,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 9,
+                    "target": {
+                        "node": 5,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 10,
+                    "target": {
+                        "node": 5,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 11,
+                    "target": {
+                        "node": 6,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 12,
+                    "target": {
+                        "node": 6,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 13,
+                    "target": {
+                        "node": 9,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 14,
+                    "target": {
+                        "node": 9,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 15,
+                    "target": {
+                        "node": 9,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 16,
+                    "target": {
+                        "node": 2,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 17,
+                    "target": {
+                        "node": 2,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 18,
+                    "target": {
+                        "node": 2,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 19,
+                    "target": {
+                        "node": 11,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 20,
+                    "target": {
+                        "node": 11,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 21,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 22,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 23,
+                    "target": {
+                        "node": 4,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 24,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "name": "Walking",
+            "samplers": [
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 34
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 15
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 39
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 69
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 14
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 16
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 51
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 23
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 27
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 21
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 12
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 45
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 33
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 53
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 43
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 50
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 64
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 29
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 25
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 10
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 38
+                },
+                {
+                    "input": 55,
+                    "interpolation": "LINEAR",
+                    "output": 35
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 3264,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Doggo_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3264,
+            "byteOffset": 3264,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Doggo_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 820,
+            "byteOffset": 6528,
+            "name": "bufferView_buffer_Doggo_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8704,
+            "byteOffset": 7348,
+            "byteStride": 32,
+            "name": "bufferView_buffer_Doggo_skin_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 640,
+            "byteOffset": 16052,
+            "byteStride": 64,
+            "name": "bufferView_buffer_IBM_Doggo_skin_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 484,
+            "byteOffset": 16692,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Doogo_Rig_Idle_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 17176,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.R_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 18628,
+            "byteStride": 16,
+            "name": "bufferView_buffer_FLeg.R_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 20564,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 22016,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 23952,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 25404,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 27340,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Ear.L_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 28792,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Ear.L_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 30728,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Mouth_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 32180,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Mouth_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 34116,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.L_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 35568,
+            "byteStride": 16,
+            "name": "bufferView_buffer_FLeg.L_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 37504,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 38956,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 40892,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Idle_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 42344,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 43796,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 45732,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Idle_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 47184,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 48636,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 50572,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Idle_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 52024,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Ear.R_Doogo_Rig_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 53476,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Ear.R_Doogo_Rig_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 484,
+            "byteOffset": 55412,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Doogo_Rig_Sit_Idle_2_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 55896,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Sit_Idle_2_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 57348,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Sit_Idle_2_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 59284,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Sit_Idle_2_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 60736,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 62188,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 64124,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Sit_Idle_2_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 65576,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 67028,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 68964,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Sit_Idle_2_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 70416,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Sit_Idle_2_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 71868,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Sit_Idle_2_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 73804,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Sit_Idle_2_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 75256,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Sit_Idle_2_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1936,
+            "byteOffset": 76708,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Sit_Idle_2_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1452,
+            "byteOffset": 78644,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Sit_Idle_2_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 244,
+            "byteOffset": 80096,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Doogo_Rig_Walking_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 80340,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.R_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 81072,
+            "byteStride": 16,
+            "name": "bufferView_buffer_FLeg.R_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 82048,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.R_Doogo_Rig_Walking_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 82780,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 83512,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 84488,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.R_Doogo_Rig_Walking_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 85220,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 85952,
+            "byteStride": 16,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 86928,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BLeg.L_Doogo_Rig_Walking_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 87660,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Ear.L_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 88392,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Ear.L_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 89368,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Mouth_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 90100,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Mouth_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 91076,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.L_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 91808,
+            "byteStride": 16,
+            "name": "bufferView_buffer_FLeg.L_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 92784,
+            "byteStride": 12,
+            "name": "bufferView_buffer_FLeg.L_Doogo_Rig_Walking_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 93516,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 94248,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 95224,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Body_Doogo_Rig_Walking_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 95956,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 96688,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Tail_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 97664,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 98396,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Head_Doogo_Rig_Walking_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 99372,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Ear.R_Doogo_Rig_Walking_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 100104,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Ear.R_Doogo_Rig_Walking_1"
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 101080,
+            "name": "buffer_BlockDog",
+            "uri": "buffer_BlockDog.bin"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Doggo",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINTS_0": 24,
+                        "NORMAL": 47,
+                        "POSITION": 32,
+                        "WEIGHTS_0": 62
+                    },
+                    "indices": 37,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "Doggo",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "skin": 0,
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "children": [
+                0,
+                2
+            ],
+            "name": "Doogo_Rig",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "children": [
+                3,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "name": "Body",
+            "rotation": [
+                -0.7071068286895752,
+                0.7071068286895752,
+                -5.7601170055932016e-08,
+                -5.7601170055932016e-08
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.30000001192092896,
+                0.6000000238418579,
+                0.0
+            ]
+        },
+        {
+            "children": [
+                4,
+                5,
+                6
+            ],
+            "name": "Head",
+            "rotation": [
+                0.0,
+                -0.7071068286895752,
+                0.0,
+                0.7071067094802856
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.8000000715255737,
+                0.0
+            ]
+        },
+        {
+            "name": "Ear.R",
+            "rotation": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ]
+        },
+        {
+            "name": "Ear.L",
+            "rotation": [
+                0.4999999701976776,
+                0.5000000596046448,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                -0.09999999403953552,
+                0.19999998807907104,
+                0.16999995708465576
+            ]
+        },
+        {
+            "name": "Mouth",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.30000007152557373,
+                -0.10000002384185791
+            ]
+        },
+        {
+            "name": "FLeg.R",
+            "rotation": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.19999998807907104,
+                0.5299999713897705,
+                0.18101972341537476
+            ]
+        },
+        {
+            "name": "BLeg.R",
+            "rotation": [
+                1.246936953691602e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.19999998807907104,
+                -0.05000007152557373,
+                0.18101972341537476
+            ]
+        },
+        {
+            "name": "FLeg.L",
+            "rotation": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.20000004768371582,
+                0.5299999713897705,
+                -0.18101966381072998
+            ]
+        },
+        {
+            "name": "BLeg.L",
+            "rotation": [
+                1.2469389965019673e-08,
+                -1.1923954446046992e-07,
+                -0.7071068286895752,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.20000004768371582,
+                -0.05000007152557373,
+                -0.18101966381072998
+            ]
+        },
+        {
+            "name": "Tail",
+            "rotation": [
+                -1.0289494412063505e-06,
+                -4.169477847426606e-07,
+                -0.855780839920044,
+                0.5173386335372925
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.18253284692764282,
+                -0.12049373984336853,
+                7.540182167531384e-08
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 30
+            },
+            "name": "Scene",
+            "nodes": [
+                1
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 66,
+            "joints": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "name": "Doggo",
+            "skeleton": 2
+        }
+    ]
+}
