@@ -4,287 +4,205 @@ The dog will:
  - Randomly sit or idle
  - Sit on command
  - Go eat on command
-
-TODO what's up with the errors "Unable to load assets from /models/avatar/square-robot/head.glb: Failed to load scene."
 */
 
 import * as DCL from 'metaverse-api'
 import {Vector3, Quaternion} from "babylonjs";
 
-class Character
+enum Goal
 {
-  position: Vector3 = new Vector3(0, 0, 0);
+  Idle,
+  Sit,
+  Follow,
+  GoEat,
+  Eating,
 }
 
-class Bowl
+export interface IState 
 {
-  position: Vector3 = new Vector3(1, 0, 1);
+  characterPosition: Vector3, 
+  bowlPosition: Vector3,
+  dogGoal: Goal,
+  dogPreviousGoal: Goal,
+  dogPosition: Vector3,
+  dogRotation: Quaternion,
+  dogAnimationWeight: number
 }
 
-class Dog 
+export default class SampleScene extends DCL.ScriptableScene
 {
-  state: State;
-  position: Vector3;
-  rotation: Quaternion;
-  animation_weight: number;
-
-  constructor() 
-  {
-    this.state = new IdleState(this);
-    this.position = new Vector3(9, 0, 9);
-    this.rotation = new Quaternion(0, 0, 0, 1);
-    this.animation_weight = 0;
-  }
-
-  walkTowards(position: Vector3)
-  {
-    this.rotation = lookAt(this.position, position, -Math.PI / 2);
-
-    let delta = position.subtract(this.position);
-    delta = delta.normalize().scale(.015);
-    delta.y = 0;
-    const new_position = this.position.add(delta);
-    if(!isInBounds(new_position)) 
-    {
-      this.state = new IdleState(this);
-    }
-    else
-    {
-      this.position = new_position;
-    }
-  }
-}
-
-class State 
-{
-  dog: Dog;
-  previous_state: State;
-
-  constructor(dog: Dog) 
-  {
-    this.dog = dog;
-    this.previous_state = dog.state;
-    if(!dog.state) 
-    {
-      dog.animation_weight = 0;
-    }
-    else
-    {
-      dog.animation_weight = 1 - dog.animation_weight;
-      if(dog.animation_weight < 0)
-      {
-        dog.animation_weight = 0;
-      }
-    }
-  }
-
-  onClick() 
-  {
-    this.dog.state = new SitState(this.dog);
-  }
-
-  onUpdate(bowl: Bowl)
-  {
-    this.dog.animation_weight += .01;
-  }
-
-  onSlowUpdate(character: Character)
-  {
-    if(Math.random() < .1)
-    {
-      this.dog.state = new SitState(this.dog);
-    }
-    else if(this.canFollow(character) && Math.random() < .8) 
-    {
-      this.dog.state = new FollowState(character, this.dog);
-    }
-  }
-
-  onClickBowl()
-  {
-    this.dog.state = new GoEatState(this.dog);
-  }
-
-  canFollow(character: Character) : boolean
-  {
-    return isInBounds(character.position)
-  }
-
-  getAnimationRates() : {idle: number, sit: number, walk: number} 
-  {
-    let sit = 0;
-    let walk = 0;
-    if(this.previous_state instanceof SitState) 
-    {
-      sit = 1 - this.dog.animation_weight;
-    }
-    else
-    {
-      walk = 1 - this.dog.animation_weight;
-    }
-    return {idle: this.dog.animation_weight, sit, walk};
-  }
-}
-class IdleState extends State { }
-class SitState extends State 
-{
-  getAnimationRates() 
-  {
-    return {idle: 1 - this.dog.animation_weight, sit: this.dog.animation_weight, walk: 0};
-  }
-  
-  onSlowUpdate(character: Character)
-  {
-    if(Math.random() < .1)
-    {
-      this.dog.state = new IdleState(this.dog);
-    }
-  }
-
-  onClick()
-  {
-    this.dog.state = new IdleState(this.dog);
-  }
-}
-class FollowState extends State 
-{
-  target_location: Vector3;
-
-  constructor(character: Character, dog: Dog) 
-  {
-    super(dog);
-    this.target_location = character.position;
-  }
-
-  onSlowUpdate(character: Character)
-  {
-    if(Math.random() < .01)
-    {
-      this.dog.state = new IdleState(this.dog);
-    }
-    else
-    {
-      this.target_location = character.position;
-    }
-  }
-
-  onUpdate(bowl: Bowl)
-  {
-    let delta = this.target_location.subtract(this.dog.position);
-    if(delta.lengthSquared() < 1.5) 
-    {
-      this.dog.state = new SitState(this.dog);
-    }
-    else
-    {
-      this.dog.walkTowards(this.target_location);
-      super.onUpdate(bowl);
-    }
-  }
-}
-class GoEatState extends State 
-{
-  getAnimationRates() 
-  {
-    let idle = 0;
-    let sit = 0;
-    if(this.previous_state instanceof SitState)
-    {
-      sit = 1 - this.dog.animation_weight;
-    }
-    else
-    {
-      idle = 1 - this.dog.animation_weight;
-    }
-    return {idle, sit, walk: this.dog.animation_weight};
-  }
-
-  onUpdate(bowl: Bowl)
-  {
-    let delta_to_bowl: Vector3 = bowl.position.subtract(this.dog.position);
-    if(delta_to_bowl.lengthSquared() < 1.5) 
-    {
-      this.dog.state = new EatingState(this.dog);
-    }
-    else 
-    {
-      this.dog.walkTowards(bowl.position);
-      super.onUpdate(bowl);
-    }
-  }
-
-  onSlowUpdate() {}
-}
-class EatingState extends State 
-{
-  onSlowUpdate(character: Character)
-  {
-    if(Math.random() < .1)
-    {
-      this.dog.state = new SitState(this.dog);
-    }
-  }
-}
-
-export default class SampleScene extends DCL.ScriptableScene 
-{
-  state: {character: Character, dog: Dog, bowl: Bowl} = {
-    character: new Character(),
-    dog: new Dog(),
-    bowl: new Bowl(),
+  state = {
+    characterPosition: new Vector3(0, 0, 0),
+    bowlPosition: new Vector3(1, 0, 1),
+    dogGoal: Goal.Idle,
+    dogPreviousGoal: Goal.Idle,
+    dogPosition: new Vector3(9, 0, 9),
+    dogRotation: new Quaternion(0, 0, 0, 1),
+    dogAnimationWeight: 1,
   };
 
   sceneDidMount()
   {
+    this.eventSubscriber.on("Dog_click", () =>
+    {
+      this.setDogGoal(this.state.dogGoal == Goal.Sit ? Goal.Idle : Goal.Sit);
+    });
+
     this.eventSubscriber.on("Bowl_click", () =>
     {
-      let dog = this.state.dog;
-      dog.state.onClickBowl();
-      this.setState({dog: dog});
-    });
-
-    this.eventSubscriber.on("Doggo_click", () => 
-    {
-      let dog = this.state.dog;
-      dog.state.onClick();
-      this.setState({dog: dog});
+      this.setDogGoal(Goal.GoEat);
     });
 
     setInterval(() => 
     {
-      let dog = this.state.dog;
-      dog.state.onUpdate(this.state.bowl);
-      this.setState({dog: dog});
-    }, 1000/60);
-    
-    setInterval(() => 
-    {
-      let dog = this.state.dog;
-      if(dog.animation_weight > .7)
+      const weight = Math.min(Math.max(this.state.dogAnimationWeight, 0), 1);
+      this.setState({dogAnimationWeight: weight + .01});
+
+      switch(this.state.dogGoal)
       {
-        dog.state.onSlowUpdate(this.state.character);
+        case Goal.Follow:
+        case Goal.GoEat:
+          const targetLocation = this.state.dogGoal == Goal.Follow ? this.state.characterPosition : this.state.bowlPosition;
+          let delta = targetLocation.subtract(this.state.dogPosition);
+          if(delta.lengthSquared() < 2) 
+          {
+            this.setDogGoal(this.state.dogGoal == Goal.Follow ? Goal.Sit : Goal.Eating);
+          }
+          else
+          {
+            this.walkTowards(targetLocation);
+          }
       }
-      this.setState({dog: dog});
+    }, 1000/60);
+
+    setInterval(() =>
+    {
+      if(this.state.dogAnimationWeight < 1)
+      {
+        return;
+      }
+  
+      switch(this.state.dogGoal)
+      {
+        case Goal.Idle:
+          this.considerGoals([
+            {goal: Goal.Sit, odds: .1},
+            {goal: Goal.Follow, odds: .9},
+          ]);
+        case Goal.Eating:
+          this.considerGoals([
+            {goal: Goal.Sit, odds: .1},
+          ]);
+        case Goal.Follow:
+          this.considerGoals([
+            {goal: Goal.Idle, odds: .1},
+          ]);
+        case Goal.GoEat:
+        case Goal.Sit:
+          this.considerGoals([
+            {goal: Goal.Idle, odds: .1},
+          ]);
+      } 
     }, 1500);
 
-    this.subscribeTo("positionChanged", e => 
+    this.subscribeTo("positionChanged", (e) =>
     {
-      let character = this.state.character;
-      character.position = new Vector3(e.position.x, e.position.y, e.position.z);
-      this.setState({ character: character });
+      this.setState({characterPosition: new Vector3(e.position.x, e.position.y, e.position.z)});
+    }); 
+  }
+
+  getAnimationRates() : {idle: number, sit: number, walk: number} 
+  {
+    const weight = Math.min(Math.max(this.state.dogAnimationWeight, 0), 1);
+    const inverse = 1 - weight;
+
+    let sit = 0;
+    let walk = 0;
+    
+    switch(this.state.dogPreviousGoal)
+    {
+      case Goal.Sit:
+        sit = inverse;
+        break;
+      case Goal.Follow:
+      case Goal.GoEat:
+        walk = inverse;
+        break;
+    }
+
+    switch(this.state.dogGoal)
+    {
+      case Goal.Sit:
+        sit = weight;
+        break;
+      case Goal.Follow:
+      case Goal.GoEat:
+        walk = weight;
+        break;
+    }
+
+    return {idle: 1 - (sit + walk), sit, walk};
+  }
+
+  considerGoals(goals: {goal: Goal, odds: number}[])
+  {
+    for(let i = 0; i < goals.length; i++)
+    {
+      if(Math.random() < goals[i].odds)
+      {
+        switch(goals[i].goal)
+        {
+          case Goal.Follow:
+            if(!isInBounds(this.state.characterPosition))
+            {
+              continue;
+            }
+        }
+
+        this.setDogGoal(goals[i].goal);
+        return;
+      }
+    }
+  }
+
+  setDogGoal(goal: Goal)
+  {
+    this.setState({
+      dogGoal: goal,
+      dogAnimationWeight: 1 - this.state.dogAnimationWeight,
+      dogPreviousGoal: this.state.dogGoal
     });
   }
 
+  walkTowards(position: Vector3)
+  {
+    let delta = position.subtract(this.state.dogPosition);
+    delta = delta.normalize().scale(.015); // .015 is the walk speed
+    delta.y = 0;
+    const newPosition = this.state.dogPosition.add(delta);
+    if(!isInBounds(newPosition)) 
+    {
+      this.setDogGoal(Goal.Idle);
+    }
+    else
+    {
+      this.setState({
+        dogPosition: newPosition,
+        dogRotation: lookAt(this.state.dogPosition, position, -Math.PI / 2)
+      });
+    }
+  }
+    
   async render() 
   {
-    let animation_weights = this.state.dog.state.getAnimationRates();
+    let animationWeights = this.getAnimationRates();
     return (
       <scene>
         <gltf-model 
-          id="Doggo"
+          id="Dog"
           src="art/BlockDog.gltf"
-          position={this.state.dog.position}
-          rotation={this.state.dog.rotation.toEulerAngles().scale(180 / Math.PI)}
+          position={this.state.dogPosition}
+          rotation={this.state.dogRotation.toEulerAngles().scale(180 / Math.PI)}
           transition={{
             rotation: {
               duration: 300
@@ -293,22 +211,22 @@ export default class SampleScene extends DCL.ScriptableScene
           skeletalAnimation={[
             { 
               clip: "Idle", 
-              weight: animation_weights.idle,
+              weight: animationWeights.idle,
             },
             { 
               clip: "Walking", 
-              weight: animation_weights.walk,
+              weight: animationWeights.walk,
             },
             { 
               clip: "Sit_Idle_2", 
-              weight: animation_weights.sit,
+              weight: animationWeights.sit,
             },
           ]}
           >
         </gltf-model>
         <box
           id="Bowl"
-          position={this.state.bowl.position}
+          position={this.state.bowlPosition}
         />
       </scene>
     )
