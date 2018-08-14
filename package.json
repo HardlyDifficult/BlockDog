@@ -1,0 +1,19 @@
+{
+  "name": "dcl-project",
+  "version": "1.0.0",
+  "description": "My new Decentraland project",
+  "scripts": {
+    "start": "dcl start",
+    "build": "metaverse-compiler build.json",
+    "watch": "metaverse-compiler build.json --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "metaverse-api": "latest"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "babylonjs": "^3.2.0"
+  }
+}
